@@ -6,29 +6,17 @@ export function Footer() {
       <div className="w-full max-w-[1280px] px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         {/* Brand */}
         <div className="flex items-center gap-2">
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <rect width="32" height="32" rx="8" fill="#262424" />
-            <circle cx="10" cy="16" r="4" fill="#0ccd4b" />
-            <circle cx="22" cy="16" r="4" fill="#1977f2" opacity="0.8" />
-          </svg>
-          <span className="text-brand-dark text-sm font-medium">Soonix</span>
+          <img src="/Logotipo.svg" alt="Auvi logo" width={100} height={150} />
         </div>
 
         {/* Copyright */}
         <p className="text-brand-gray text-xs text-center">
-          © {year} Soonix. All rights reserved.
+          © {year} Auvi. Todos os direitos reservados.
         </p>
 
         {/* Links */}
         <nav className="flex items-center gap-5" aria-label="Footer navigation">
-          {["Privacy", "Terms", "Contact"].map((link) => (
+          {["Privacidade", "Termos", "Contato"].map((link) => (
             <a
               key={link}
               href="#"

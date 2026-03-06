@@ -54,10 +54,10 @@ export function FAQ() {
               fontWeight: 400,
             }}
           >
-            Frequently asked questions
+            Perguntas frequentes
           </h2>
           <p className="text-brand-gray text-base max-w-[400px] mx-auto leading-relaxed">
-            Everything you need to know before joining the waitlist.
+            Tudo que você precisa saber antes de se cadastrar na lista de espera.
           </p>
         </div>
 
