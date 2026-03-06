@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { Hero } from "@/components/Hero"
 import { ProductMockup } from "@/components/ProductMockup"
 import { FAQ } from "@/components/FAQ"
@@ -12,6 +13,7 @@ function App() {
         <FAQ />
       </main>
       <Footer />
+      <Analytics />
     </div>
   )
 }
