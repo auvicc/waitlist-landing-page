@@ -7,29 +7,34 @@ import {
 
 const faqs = [
   {
-    question: "When is the product launching?",
+    question: "O que é a Auvi?",
     answer:
-      "We're working hard to get everything just right. Once you join the waitlist, you'll be among the first to know the exact launch date — and get early access before anyone else.",
+      "A Auvi é uma plataforma completa para criadores brasileiros gerenciarem e monetizarem sua audiência. Aqui você tem comunidade, área de membros, vendas de cursos e eventos — tudo integrado em um só lugar, sem precisar de 10 ferramentas diferentes.",
   },
   {
-    question: "What will I get as an early member?",
+    question: "A Auvi substitui minhas ferramentas atuais?",
     answer:
-      "Early members get exclusive access before the public launch, special founding-member pricing, and the ability to help shape the product roadmap. Your feedback will directly influence what we build.",
+      "Sim. Se hoje você usa uma ferramenta para comunidade, outra para área de membros, outra para vendas e outra para gerenciar contatos — a Auvi centraliza tudo isso. Menos login, menos mensalidade, mais foco no que importa: sua audiência."
   },
   {
-    question: "Is it free to join the waitlist?",
+    question: "Quando a plataforma vai lançar?",
     answer:
-      "Absolutely. Joining the waitlist is completely free and takes less than 30 seconds. No credit card required, no commitments — just your email.",
+      "Estamos em fase final de desenvolvimento. Quem entrar na lista de espera agora terá acesso antecipado exclusivo antes do lançamento público — e será avisado em primeira mão quando abrirmos as portas.",
   },
   {
-    question: "How many people are on the waitlist?",
+    question: "Como funciona o pagamento?",
     answer:
-      "We currently have over 4,200 people waiting for early access. Spots are limited for the first cohort, so the sooner you join, the higher your position.",
+      "Simples e brasileiro. Você recebe via PIX, boleto ou cartão parcelado — direto na sua conta, sem burocracia de plataforma internacional. Configuração rápida e você já pode começar a vender.",
   },
   {
-    question: "Will my data be kept private?",
+    question: "Posso trazer meus alunos/membros de outra plataforma?",
     answer:
-      "Your privacy is our priority. We will never sell or share your information with third parties. Your email will only be used to notify you about the product launch and relevant updates.",
+      "Sim! A Auvi foi pensada para facilitar a migração. Você pode importar sua base de alunos, membros e leads de outras ferramentas sem perder dados ou histórico. Queremos que a transição seja o mais suave possível.",
+  },
+  {
+    question: "O que vou poder fazer na Auvi?",
+    answer:
+      "Criar e gerenciar comunidades privadas, vender cursos e mentorias, organizar eventos online, construir sua área de membros, acompanhar seus leads — tudo em português e integrado. É como ter Circle + Hotmart + CRM em uma única plataforma.",
   },
 ]
 
