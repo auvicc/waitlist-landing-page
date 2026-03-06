@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { track } from "@vercel/analytics"
 import { Button } from "@/components/ui/button"
 import { DecorativeIllustrations } from "@/components/DecorativeIllustrations"
 import { ArrowRight, Check } from "lucide-react"
@@ -16,6 +17,7 @@ export function Hero() {
     }
     setError("")
     setSubmitted(true)
+    track("signup", { email })
   }
 
   return (
@@ -35,7 +37,7 @@ export function Hero() {
           className="text-hero text-brand-dark max-w-[640px] mb-5 animate-fade-in"
           style={{ animationDelay: "0.08s", opacity: 0 }}
         >
-          Onde sua comunidade cresce e converte
+          A plataforma para monetizar a sua audiência
         </h1>
 
         {/* Subheadline */}
@@ -43,7 +45,7 @@ export function Hero() {
           className="text-brand-gray text-base md:text-lg max-w-[460px] mb-10 leading-relaxed animate-fade-in"
           style={{ animationDelay: "0.16s", opacity: 0 }}
         >
-          A <span className="font-semibold">Auvi</span> é a plataforma que você estava esperando: comunidade engajada, alunos organizados e leads convertendo — tudo integrado.
+          Pare de usar 4 ferramentas diferentes. Gerencie comunidade, conteúdo, eventos e pagamentos em um só lugar.
         </p>
 
         {/* CTA Form — button inside input */}
@@ -113,7 +115,7 @@ export function Hero() {
             ))}
           </div>
           <p className="text-brand-gray text-sm">
-            <span className="font-semibold text-brand-dark">4,200+</span> people already joined
+            <span className="font-semibold text-brand-dark">150+</span> pessoas já se cadastraram
           </p>
         </div>
       </div>
