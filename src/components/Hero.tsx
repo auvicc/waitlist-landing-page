@@ -103,19 +103,13 @@ export function Hero() {
           style={{ animationDelay: "0.36s", opacity: 0 }}
         >
           <div className="flex -space-x-2.5">
-            {[
-              { bg: "#0ccd4b", initial: "A" },
-              { bg: "#1977f2", initial: "B" },
-              { bg: "#f59e0b", initial: "C" },
-              { bg: "#8b5cf6", initial: "D" },
-            ].map(({ bg, initial }) => (
-              <div
-                key={initial}
-                className="w-8 h-8 rounded-full border-2 border-brand-bg flex items-center justify-center text-white text-xs font-bold"
-                style={{ backgroundColor: bg }}
-              >
-                {initial}
-              </div>
+            {[12, 26, 44, 57].map((id) => (
+              <img
+                key={id}
+                src={`https://i.pravatar.cc/64?img=${id}`}
+                alt="User avatar"
+                className="w-8 h-8 rounded-full border-2 border-brand-bg object-cover"
+              />
             ))}
           </div>
           <p className="text-brand-gray text-sm">
