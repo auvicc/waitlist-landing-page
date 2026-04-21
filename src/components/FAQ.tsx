@@ -9,32 +9,32 @@ const faqs = [
   {
     question: "O que é a Auvi?",
     answer:
-      "A Auvi é uma plataforma completa para criadores brasileiros gerenciarem e monetizarem sua audiência. Aqui você tem comunidade, área de membros, vendas de cursos e eventos — tudo integrado em um só lugar, sem precisar de 10 ferramentas diferentes.",
+      "A Auvi é uma plataforma de gestão de audiência para criadores brasileiros. Você centraliza todos os seus contatos — leads, membros, compradores e participantes de eventos — em um único perfil. E em cima disso, gerencia comunidades pagas, vende produtos, automatiza seu WhatsApp e acompanha a receita em tempo real. Tudo integrado, sem precisar sair da plataforma.",
   },
   {
     question: "A Auvi substitui minhas ferramentas atuais?",
     answer:
-      "Sim. Se hoje você usa uma ferramenta para comunidade, outra para área de membros, outra para vendas e outra para gerenciar contatos — a Auvi centraliza tudo isso. Menos login, menos mensalidade, mais foco no que importa: sua audiência."
+      "Sim. Se hoje você usa Hotmart ou Kiwify para vender, Telegram ou WhatsApp manual para comunidade, RD Station ou Mailchimp para leads e planilhas para controlar tudo — a Auvi substitui esse ecossistema. Uma mensalidade, um login, um lugar para conhecer sua audiência de verdade.",
   },
   {
     question: "Quando a plataforma vai lançar?",
     answer:
-      "Estamos em fase final de desenvolvimento. Quem entrar na lista de espera agora terá acesso antecipado exclusivo antes do lançamento público — e será avisado em primeira mão quando abrirmos as portas.",
+      "O lançamento está previsto para o segundo trimestre de 2026 — ou seja, em breve. Quem está na lista de espera agora tem garantia de acesso antecipado, 21 dias grátis e condições exclusivas de lançamento. Você será avisado por e-mail antes de abrirmos para o público geral.",
   },
   {
-    question: "Como funciona o pagamento?",
+    question: "Quanto vai custar?",
     answer:
-      "Simples e brasileiro. Você recebe via PIX, boleto ou cartão parcelado — direto na sua conta, sem burocracia de plataforma internacional. Configuração rápida e você já pode começar a vender.",
+      "Os planos vão de R$250 a R$750 por mês, com uma taxa de 5% sobre as vendas processadas — bem menor do que os 9,9% cobrados pela Hotmart. Sem contrato anual obrigatório: comece com 21 dias grátis e cancele quando quiser. Quem entrar na lista agora terá acesso a condições especiais de lançamento.",
   },
   {
     question: "Posso trazer meus alunos/membros de outra plataforma?",
     answer:
-      "Sim! A Auvi foi pensada para facilitar a migração. Você pode importar sua base de alunos, membros e leads de outras ferramentas sem perder dados ou histórico. Queremos que a transição seja o mais suave possível.",
+      "Sim. A Auvi aceita importação de contatos via CSV, então você traz sua base de qualquer plataforma sem perder dados. Mais do que migrar listas: cada contato ganha um perfil unificado com histórico de compras, engajamento e estágio no ciclo de vida.",
   },
   {
-    question: "O que vou poder fazer na Auvi?",
+    question: "A Auvi tem automação de WhatsApp?",
     answer:
-      "Criar e gerenciar comunidades privadas, vender cursos e mentorias, organizar eventos online, construir sua área de membros, acompanhar seus leads — tudo em português e integrado. É como ter Circle + Hotmart + CRM em uma única plataforma.",
+      "Sim — e é um dos nossos maiores diferenciais. A Auvi adiciona e remove membros dos seus grupos de WhatsApp automaticamente com base na assinatura: assinou, entrou; cancelou, saiu. Sem trabalho manual, sem erros, sem precisar ficar monitorando.",
   },
 ]
 

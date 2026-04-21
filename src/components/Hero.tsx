@@ -12,7 +12,7 @@ export function Hero() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     if (!email || !email.includes("@")) {
-      setError("Please enter a valid email address.")
+      setError("Digite um endereço de e-mail válido.")
       return
     }
     setError("")
